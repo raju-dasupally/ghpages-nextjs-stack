@@ -30,21 +30,5 @@ configs:
        topics:                                            
        - nextjs
        - github-pages
-
-  branches:                                            
-    - name: main
-      parameters:
-        dismiss-stale-reviews: true                      
-        required-approving-review-count: 1
-        require-code-owner-reviews: true
-
-  environments:                                        
-    - name: development
-      parameters: 
-        protected-branches: false
-        custom-branch-policies:
-          - main
-          - releases/*
-
 github-apps:
   - slug: sider
