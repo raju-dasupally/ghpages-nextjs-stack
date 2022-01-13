@@ -33,3 +33,4 @@ configs:
 github-apps:
   - slug: sider
   - slug: azure
+  - slug: aws
