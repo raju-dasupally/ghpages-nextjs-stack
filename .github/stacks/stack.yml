@@ -48,5 +48,4 @@ configs:
           - releases/*
 
 github-apps:
-  - name: Code Inspector
-  - name: Sider
+  - slug: sider
