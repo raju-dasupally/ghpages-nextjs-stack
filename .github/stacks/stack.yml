@@ -32,3 +32,4 @@ configs:
        - github-pages
 github-apps:
   - slug: sider
+  - slug: azure
