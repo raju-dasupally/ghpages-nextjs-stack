@@ -7,14 +7,13 @@ branding:
  icon: 'package'
  color: 'black'
 
-inputs:                                                
-    
+inputs:                                                   
   - name: NODE_VERSION                                 
     default: v12.22.4                              
     description: NODE_VERSION for nodejs stack         
     validvalues:                                       
-    - v12.22.4
-    - v14.17.4
+      - v12.22.4
+      - v14.17.4
     
   - name: GITHUB_PAT
     description: GitHub PAT with repo and workflow permissions
